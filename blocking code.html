@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function print(){
+            setTimeout(function(){
+                document.write('10');
+                setTimeout(function(){
+                    document.write('9');
+                    setTimeout(function(){
+                        document.write('8');
+                        setTimeout(function(){
+                            document.write('7');
+                            setTimeout(function(){
+                                document.write('6');
+                                setTimeout(function(){
+                                    document.write('5');
+                                    setTimeout(function(){
+                                        document.write('4');
+                                        setTimeout(function(){
+                                            document.write('3');   
+                                            setTimeout(function(){
+                                                document.write('2');
+                                                setTimeout(function(){
+                                                    document.write('1');
+                                                    setTimeout(function(){
+                                                        document.write('0');
+                                                    },1000);
+                                                },1000);
+                                            },1000);
+                                        },1000);
+                                    },1000);
+                                },1000);
+                            },1000);
+                        },1000);
+                    },1000);
+                },1000);
+            },1000);
+        };
+        print();
+    </script>
+</body>
+</html>
